@@ -1033,7 +1033,7 @@ function App() {
   return (
     <>
       <h1>The AutoComplete Project</h1>
-      <h3>start typing below already</h3>
+      <h3>start typing below a Pokemon name (case sensitive)</h3>
       <input type="text" size="50" onChange={onChange} value={value} /> <br />
       <button>Search</button> <br />
       <div className="dropdown-content">
